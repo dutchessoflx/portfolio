@@ -23,16 +23,16 @@ global: {
         .heading{
           margin-top: 20px;
         }
-      
+
 
       `
     }
   },
   fonts: {
-    default: 'Comic Sans MS'
+    default: " 'Glegoo', serif;"
   },
   palette: {
-    primary: 'rgba(100, 46, 125, 1)'
+    primary: 'white'
   },
   breakpoints: {
     mobile: 520,
