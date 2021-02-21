@@ -14,6 +14,7 @@ global: {
         body {
           background-color: rgba(46, 120, 125, 0.81);
           color: white;
+          font-family: 'Glegoo';
 
         }
         h2{
@@ -23,8 +24,43 @@ global: {
         .heading{
           margin-top: 20px;
         }
-
-
+        a.bb-Button{
+          width: 250px;
+          display: flex;
+          margin-left: 0;
+        }
+        button:hover{
+          cursor: pointer;
+          font-weight: bolder;
+          font-style: italic;
+        }
+        hr.bb-Divider{
+          margin: 50px;
+        }
+        p.bb-Paragraph{
+          align: center;
+        }
+        .css-1rbdlof{
+          padding: 10px;
+          margin: auto;
+        }
+        div.bb-PopoverContent{
+          color: white;
+          background-color: rgba(46, 120, 125, 1);
+        }
+        img.topimage:hover{
+          content-visibility: hidden;
+        }
+        img.bb-Image{
+          border-radius: 30px;
+          boxShadow="3px 3px 5px 6px rgba(46, 120, 125, 1)"
+        }
+        #pacman{
+          border-radius: 30px;
+        }
+        h3{
+          margin-bottom: 0;
+        }
       `
     }
   },
