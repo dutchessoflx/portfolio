@@ -1,5 +1,5 @@
 import React from 'react';
-import {  Text,Flex,Columns,Image, Heading, Divider,Link, Paragraph,Disclosure, Box,Container,PageWithHeader,PageContent,Button,Table, Input, Popover, Modal, Card } from 'bumbag';
+import {  Text,Flex,Columns,Image, Heading, Divider,Link, Paragraph,Disclosure, Box,Container,PageWithHeader,PageContent,Button,Table, Input, List, Popover, Modal, Card, Navigation, SideNav, Page } from 'bumbag';
 import ttt from "../images/tic-tac-toe.png";
 import pacman from "../images/tic-tac-pacman.png";
 import loans from "../images/game-library-loans.png";
@@ -8,6 +8,10 @@ import matrix from "../images/led-matrix.png";
 import leaderboard from "../images/tech-job-corp-leaderboard.30.58 pm.png";
 import job from "../images/tech-job-corp.png";
 import resume from "../images/resume.png";
+import video from "../images/led-matrix-video.mov";
+import BAfront from "../images/burning-react.png";
+import BAback from "../images/burning-rails.png";
+
 
 
 
@@ -18,9 +22,29 @@ import resume from "../images/resume.png";
 const Home = () => {
 
 return(
-<Container>
+  <Container>
+
+
+
+
+
 
 <Heading fontWeight="lighter" fontFamily="Glegoo" backgroundRepeat="no-repeat"  backgroundImage="url(http://placekitten.com/800100)" alignX="center" margin="0" padding="50px">Brooke Van Eerden</Heading>
+
+    <Navigation alignX="center" aria-label="page links">
+      <ul>
+        <li>
+          <Link href="#projects">Projects</Link>
+        </li>
+        <li>
+          <Link href="#skills">Skills</Link>
+        </li>
+        <li>
+          <Link href="#contact">Contact Information</Link>
+        </li>
+      </ul>
+    </Navigation>
+    <br/>
   <Paragraph padding="40px" alignX="center" width="72vw" borderRadius="10px" backgroundColor="rgba(46, 120, 125, 0.81)" boxShadow="3px 3px 5px 6px #ccc">
 
   I have been working for years as a theatrical lighting designer and venue technician, a job which has given me diverse and in depth experiences,  <br/> I have enjoyed creating visual performances for a varied range of audiences from dance schools to corporate dinners.<br/>
@@ -33,7 +57,7 @@ return(
 
 
 
-
+<Container id="projects">
 <Heading alignX="center" use="h2">Projects</Heading>
 
   <Columns margin="5px" alignX="center" spacing="major-3" >
@@ -48,8 +72,8 @@ return(
         padding="major-2"
         role="group"
       >
-      <Image zIndex="1" className="topimage" borderRadius="30px" width="450px" fit="contain" src={ttt} />
-      <Image id="pacman" fit="contain" visibility="hidden" _groupHover={{visibility: 'visible'}} src={pacman} borderRadius="30px" width="350px" height="200px"/>
+      <Image boxShadow="5px 5px 7px 8px rgba(103, 22, 131, 0.7)" zIndex="1" className="topimage" borderRadius="30px" width="450px" fit="contain" visibility="visible" _groupHover={{visibility: 'hidden'}}src={ttt} />
+      <Image boxShadow="5px 5px 7px 8px rgba(103, 22, 131, 0.7)" id="pacman" position="absolute" fit="contain" visibility="hidden" _groupHover={{visibility: 'visible'}} src={pacman} borderRadius="30px" width="450px" />
       </Box>
     </Box>
 
@@ -78,9 +102,9 @@ return(
 
 
             <ul>
-            <li><Button alignX="center" target="_blank" use="a" href="https://github.com/dutchessoflx/tic-tac-toe" backgroundColor="rgba(46, 120, 125, 0.81)">See the Code</Button></li>
+            <li><Button alignX="center" target="_blank" use="a" href="https://github.com/dutchessoflx/tic-tac-toe" backgroundColor="rgba(103, 22, 131, 0.7)">See the Code</Button></li>
 
-            <li><Button alignX="center" target="_blank" use="a" href="https://dutchessoflx.github.io/tic-tac-toe/" backgroundColor="rgba(46, 120, 125, 0.81)">See the Project</Button></li>
+            <li><Button alignX="center" target="_blank" use="a" href="https://dutchessoflx.github.io/tic-tac-toe/" backgroundColor="rgba(103, 22, 131, 0.7)">See the Project</Button></li>
             </ul>
 
 
@@ -96,8 +120,8 @@ return(
     padding="major-2"
     role="group"
   >
-  <Image zIndex="1" className="topimage" borderRadius="30px" width="450px" height="450px" fit="contain" src={loans} />
-  <Image id="pacman" fit="contain" visibility="hidden" _groupHover={{visibility: 'visible'}} src={mario} borderRadius="30px" width="350px" height="200px"/>
+  <Image boxShadow="5px 5px 7px 8px rgba(103, 22, 131, 0.7)" zIndex="1" className="topimage" borderRadius="30px" width="450px" fit="contain" visibility="visible" _groupHover={{visibility: 'hidden'}}src={loans} />
+  <Image boxShadow="5px 5px 7px 8px rgba(103, 22, 131, 0.7)" id="pacman" position="absolute" fit="contain" visibility="hidden" _groupHover={{visibility: 'visible'}} src={mario} borderRadius="30px" width="450px" />
   </Box>
 </Box>
 
@@ -125,9 +149,9 @@ return(
 
 
       <ul>
-      <li><Button use="a" target="_blank" href="https://github.com/dutchessoflx/game-library" backgroundColor="rgba(46, 120, 125, 0.81)">See the Code</Button></li>
+      <li><Button use="a" target="_blank" href="https://github.com/dutchessoflx/game-library" backgroundColor="rgba(103, 22, 131, 0.7)">See the Code</Button></li>
 
-      <li><Button use="a" target="_blank" href="https://game-library-db.herokuapp.com/" backgroundColor="rgba(46, 120, 125, 0.81)">See the Project</Button></li>
+      <li><Button use="a" target="_blank" href="https://game-library-db.herokuapp.com/" backgroundColor="rgba(103, 22, 131, 0.7)">See the Project</Button></li>
       </ul>
 
 
@@ -140,8 +164,8 @@ return(
     padding="major-2"
     role="group"
   >
-  <Image zIndex="1" className="topimage" borderRadius="30px" width="450px" height="450px" fit="contain" src={loans} />
-  <Image id="pacman" fit="contain" visibility="hidden" _groupHover={{visibility: 'visible'}} src={mario} borderRadius="30px" width="350px" height="200px"/>
+  <Image boxShadow="5px 5px 7px 8px rgba(103, 22, 131, 0.7)" zIndex="1" className="topimage" borderRadius="30px" width="450px" fit="contain" visibility="visible" _groupHover={{visibility: 'hidden'}}src={BAfront} />
+  <Image boxShadow="5px 5px 7px 8px rgba(103, 22, 131, 0.7)" id="pacman" position="absolute" fit="contain" visibility="hidden" _groupHover={{visibility: 'visible'}} src={BAback} borderRadius="30px" width="450px" />
   </Box>
 </Box>
 
@@ -168,9 +192,9 @@ return(
   </Modal>
 </Modal.State>
       <ul>
-      <li><Button use="a" target="_blank" href="https://github.com/dutchessoflx/burning-airlines-backend" backgroundColor="rgba(46, 120, 125, 0.81)">See the Backend Code</Button></li>
+      <li><Button use="a" target="_blank" href="https://github.com/dutchessoflx/burning-airlines-backend" backgroundColor="rgba(103, 22, 131, 0.7)">See the Backend Code</Button></li>
 
-      <li><Button use="a"  target="_blank" href="https://github.com/alistairgray/burning-airlines-front-end" backgroundColor="rgba(46, 120, 125, 0.81)">See the Frontend Code</Button></li>
+      <li><Button use="a"  target="_blank" href="https://github.com/alistairgray/burning-airlines-front-end" backgroundColor="rgba(103, 22, 131, 0.7)">See the Frontend Code</Button></li>
       </ul>
 
 
@@ -183,8 +207,8 @@ return(
     padding="major-2"
     role="group"
   >
-  <Image zIndex="1" className="topimage" borderRadius="30px" width="650px" height="450px" fit="contain" src={job} />
-  <Image id="pacman" fit="contain" visibility="hidden" _groupHover={{visibility: 'visible'}} src={leaderboard} borderRadius="30px" width="650px" height="450px"/>
+  <Image boxShadow="5px 5px 7px 8px rgba(103, 22, 131, 0.7)" zIndex="1" className="topimage" borderRadius="30px" width="650px" fit="contain" visibility="visible" _groupHover={{visibility: 'hidden'}}src={job} />
+  <Image boxShadow="5px 5px 7px 8px rgba(103, 22, 131, 0.7)" id="pacman" position="absolute" fit="contain" visibility="hidden" _groupHover={{visibility: 'visible'}} src={leaderboard} borderRadius="30px" width="650px" />
   </Box>
 </Box>
 
@@ -212,9 +236,9 @@ return(
 </Modal.State>
 
       <ul>
-      <li><Button use="a" target="_blank" href="https://github.com/nimisaya/techjobcorp" backgroundColor="rgba(46, 120, 125, 0.81)">See the Code</Button></li>
+      <li><Button use="a" target="_blank" href="https://github.com/nimisaya/techjobcorp" backgroundColor="rgba(103, 22, 131, 0.7)">See the Code</Button></li>
 
-      <li><Button use="a" target="_blank" href="https://tech-job-corp-quiz.herokuapp.com/" backgroundColor="rgba(46, 120, 125, 0.81)">See the Project</Button></li>
+      <li><Button use="a" target="_blank" href="https://tech-job-corp-quiz.herokuapp.com/" backgroundColor="rgba(103, 22, 131, 0.7)">See the Project</Button></li>
       </ul>
 
 
@@ -228,9 +252,22 @@ return(
     padding="major-2"
     role="group"
   >
-  <Image zIndex="1" className="topimage" borderRadius="30px" width="700px" height="450px" fit="contain" src={matrix} />
-  <Image id="pacman" fit="contain" visibility="hidden" _groupHover={{visibility: 'visible'}} src={mario} borderRadius="30px" width="700px" height="450px"/>
-  </Box>
+  <Modal.State animated>
+  <Modal.Disclosure margin="10px"><Image boxShadow="5px 5px 7px 8px rgba(103, 22, 131, 0.7)" zIndex="1" className="topimage" borderRadius="30px" width="700px" fit="contain"  _groupHover={{width: '650px'}}src={matrix} /></Modal.Disclosure>
+  <Modal duration="100ms" placement="top" fade slide>
+  <Card color="white" width="750px" height="670px" borderRadius="30px" backgroundColor="rgba(46, 120, 125, 1)">
+
+      <video controls boxShadow="5px 5px 7px 8px rgba(103, 22, 131, 0.7)" fit="contain"  src={video} borderRadius="30px" >
+
+    </video>
+    <br/>
+    <Modal.Disclosure alignX="center" use={Button}>Close</Modal.Disclosure>
+  </Card>
+  </Modal>
+  </Modal.State>
+
+
+</Box>
 </Box>
 
 
@@ -256,9 +293,9 @@ return(
 </Modal.State>
 
       <ul>
-      <li><Button use="a" target="_blank" href="https://github.com/dutchessoflx/react-led-matrix-messaging" backgroundColor="rgba(46, 120, 125, 0.81)">See the Code</Button></li>
+      <li><Button use="a" target="_blank" href="https://github.com/dutchessoflx/react-led-matrix-messaging" backgroundColor="rgba(103, 22, 131, 0.7)">See the Code</Button></li>
 
-      <li><Button use="a" target="_blank" href="https://dutchessoflx.github.io/react-led-matrix-messaging/" backgroundColor="rgba(46, 120, 125, 0.81)">See the Project</Button></li>
+      <li><Button use="a" target="_blank" href="https://dutchessoflx.github.io/react-led-matrix-messaging/" backgroundColor="rgba(103, 22, 131, 0.7)">See the Project</Button></li>
       </ul>
 
 
@@ -267,24 +304,28 @@ return(
 </Columns.Column>
 
 </Columns>
+</Container>
   <Divider/>
-  <Container>
+  <Container id="skills">
   <Heading alignX="center" use="h2">Skills</Heading>
   <Paragraph alignX="center">
   <ul>
   <li>Javascript</li>
+    <li>Rails</li>
+    <li>React</li>
   <li>HTML</li>
   <li>CSS</li>
+
   <li>Ruby</li>
-  <li>Rails</li>
-  <li>React</li>
+
 </ul>
   </Paragraph>
   </Container>
   <Divider/>
-  <Container>
-<Heading alignX="center" use="h2">Contact</Heading>
+  <Container id="contact">
+<Heading alignX="center" use="h2">Ready for my next adventure!</Heading>
 <Paragraph alignX="center">
+
 
 <ul>
 <li>Email</li>

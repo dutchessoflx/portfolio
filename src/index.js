@@ -48,18 +48,14 @@ global: {
           color: white;
           background-color: rgba(46, 120, 125, 1);
         }
-        img.topimage:hover{
-          content-visibility: hidden;
-        }
-        img.bb-Image{
-          border-radius: 30px;
-          boxShadow="3px 3px 5px 6px rgba(46, 120, 125, 1)"
-        }
-        #pacman{
-          border-radius: 30px;
-        }
         h3{
           margin-bottom: 0;
+        }
+        button.bb-PageWithSidebarDisclosure{
+          margin-left: -231px;
+          position: sticky;
+          background-colour: none;
+          margin-top: 10px;
         }
       `
     }
