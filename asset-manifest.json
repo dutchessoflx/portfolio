@@ -1,20 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.842008ef.chunk.css",
-    "main.js": "/portfolio/static/js/main.90e947f7.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.90e947f7.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.65db83f5.chunk.css",
+    "main.js": "/portfolio/static/js/main.bc785783.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.bc785783.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.dca47700.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.dca47700.js.map",
-    "static/js/2.743535e6.chunk.js": "/portfolio/static/js/2.743535e6.chunk.js",
-    "static/js/2.743535e6.chunk.js.map": "/portfolio/static/js/2.743535e6.chunk.js.map",
+    "static/js/2.8cb78936.chunk.js": "/portfolio/static/js/2.8cb78936.chunk.js",
+    "static/js/2.8cb78936.chunk.js.map": "/portfolio/static/js/2.8cb78936.chunk.js.map",
     "static/js/3.e494fa0d.chunk.js": "/portfolio/static/js/3.e494fa0d.chunk.js",
     "static/js/3.e494fa0d.chunk.js.map": "/portfolio/static/js/3.e494fa0d.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.842008ef.chunk.css.map": "/portfolio/static/css/main.842008ef.chunk.css.map",
-    "static/js/2.743535e6.chunk.js.LICENSE.txt": "/portfolio/static/js/2.743535e6.chunk.js.LICENSE.txt",
+    "static/css/main.65db83f5.chunk.css.map": "/portfolio/static/css/main.65db83f5.chunk.css.map",
+    "static/js/2.8cb78936.chunk.js.LICENSE.txt": "/portfolio/static/js/2.8cb78936.chunk.js.LICENSE.txt",
     "static/media/index.css": "/portfolio/static/media/Glegoo-Regular.961533ce.ttf",
+    "static/media/burning-rails.30773fde.png": "/portfolio/static/media/burning-rails.30773fde.png",
+    "static/media/burning-react.8f5e450b.png": "/portfolio/static/media/burning-react.8f5e450b.png",
     "static/media/game-library-loans.f6bee02d.png": "/portfolio/static/media/game-library-loans.f6bee02d.png",
     "static/media/game-library-mario.100b914c.png": "/portfolio/static/media/game-library-mario.100b914c.png",
+    "static/media/led-matrix-video.df1bf8a0.mov": "/portfolio/static/media/led-matrix-video.df1bf8a0.mov",
     "static/media/led-matrix.dfc41b6a.png": "/portfolio/static/media/led-matrix.dfc41b6a.png",
     "static/media/resume.d00fd783.png": "/portfolio/static/media/resume.d00fd783.png",
     "static/media/tech-job-corp-leaderboard.30.58 pm.41dc50a2.png": "/portfolio/static/media/tech-job-corp-leaderboard.30.58 pm.41dc50a2.png",
@@ -24,8 +27,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.dca47700.js",
-    "static/js/2.743535e6.chunk.js",
-    "static/css/main.842008ef.chunk.css",
-    "static/js/main.90e947f7.chunk.js"
+    "static/js/2.8cb78936.chunk.js",
+    "static/css/main.65db83f5.chunk.css",
+    "static/js/main.bc785783.chunk.js"
   ]
 }
