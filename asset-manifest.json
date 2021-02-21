@@ -1,22 +1,31 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.a515d911.chunk.css",
-    "main.js": "/portfolio/static/js/main.7b6f1b5c.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.7b6f1b5c.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.842008ef.chunk.css",
+    "main.js": "/portfolio/static/js/main.90e947f7.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.90e947f7.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.dca47700.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.dca47700.js.map",
-    "static/js/2.a1066e0a.chunk.js": "/portfolio/static/js/2.a1066e0a.chunk.js",
-    "static/js/2.a1066e0a.chunk.js.map": "/portfolio/static/js/2.a1066e0a.chunk.js.map",
+    "static/js/2.743535e6.chunk.js": "/portfolio/static/js/2.743535e6.chunk.js",
+    "static/js/2.743535e6.chunk.js.map": "/portfolio/static/js/2.743535e6.chunk.js.map",
     "static/js/3.e494fa0d.chunk.js": "/portfolio/static/js/3.e494fa0d.chunk.js",
     "static/js/3.e494fa0d.chunk.js.map": "/portfolio/static/js/3.e494fa0d.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.a515d911.chunk.css.map": "/portfolio/static/css/main.a515d911.chunk.css.map",
-    "static/js/2.a1066e0a.chunk.js.LICENSE.txt": "/portfolio/static/js/2.a1066e0a.chunk.js.LICENSE.txt"
+    "static/css/main.842008ef.chunk.css.map": "/portfolio/static/css/main.842008ef.chunk.css.map",
+    "static/js/2.743535e6.chunk.js.LICENSE.txt": "/portfolio/static/js/2.743535e6.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/portfolio/static/media/Glegoo-Regular.961533ce.ttf",
+    "static/media/game-library-loans.f6bee02d.png": "/portfolio/static/media/game-library-loans.f6bee02d.png",
+    "static/media/game-library-mario.100b914c.png": "/portfolio/static/media/game-library-mario.100b914c.png",
+    "static/media/led-matrix.dfc41b6a.png": "/portfolio/static/media/led-matrix.dfc41b6a.png",
+    "static/media/resume.d00fd783.png": "/portfolio/static/media/resume.d00fd783.png",
+    "static/media/tech-job-corp-leaderboard.30.58 pm.41dc50a2.png": "/portfolio/static/media/tech-job-corp-leaderboard.30.58 pm.41dc50a2.png",
+    "static/media/tech-job-corp.49fdbd3f.png": "/portfolio/static/media/tech-job-corp.49fdbd3f.png",
+    "static/media/tic-tac-pacman.e2825c84.png": "/portfolio/static/media/tic-tac-pacman.e2825c84.png",
+    "static/media/tic-tac-toe.be39fbe8.png": "/portfolio/static/media/tic-tac-toe.be39fbe8.png"
   },
   "entrypoints": [
     "static/js/runtime-main.dca47700.js",
-    "static/js/2.a1066e0a.chunk.js",
-    "static/css/main.a515d911.chunk.css",
-    "static/js/main.7b6f1b5c.chunk.js"
+    "static/js/2.743535e6.chunk.js",
+    "static/css/main.842008ef.chunk.css",
+    "static/js/main.90e947f7.chunk.js"
   ]
 }
