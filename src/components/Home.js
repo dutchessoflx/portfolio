@@ -7,7 +7,7 @@ import mario from "../images/game-library-mario.png";
 import matrix from "../images/led-matrix.png";
 import leaderboard from "../images/tech-job-corp-leaderboard.30.58 pm.png";
 import job from "../images/tech-job-corp.png";
-import resume from "../images/Resume BVE.png";
+import resume from "../images/profile.png";
 import video from "../images/led-matrix-video.mov";
 import BAfront from "../images/burning-react.png";
 import BAback from "../images/burning-rails.png";
@@ -77,10 +77,12 @@ return(
       </Navigation>
       <br/>
       <Paragraph id="aboutMe" padding="40px" alignX="center" width="72vw" borderRadius="10px" backgroundColor="rgba(46, 120, 125, 0.81)" boxShadow="3px 3px 5px 6px #ccc">
+        From a very young age, I struggled to choose just one thing. When I started prep I was asked "Which hand do you colour with, left or right?", and I at the age of 5 very proudly responded "Both". So it is of little surprise to me that in my career I am no different, wanting to add opportunities and experiences into my working life rather than merely being just one thing.
         I have been working for years as a theatrical lighting designer and venue technician, a job which has given me diverse and in depth experiences,  <br/>
         I have enjoyed creating visual performances for a varied range of audiences from dance schools to corporate dinners.<br/>
         Working in theatre has helped me build a variety of skills, and now I have taken on a new opportunity to up-skill as a software engineer.<br/>
         I am looking forward to utilising my coding and problem-solving skills within a collaborative team that will allow me to continuously learn and grow.
+
       </Paragraph>
   </header>
   <Container id="projects">

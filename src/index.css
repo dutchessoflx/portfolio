@@ -38,3 +38,7 @@ video{
   border-radius: 30px;
   width: 700px;
 }
+
+@media-query(min-width: 500px){
+  background-color: blue;
+}
